@@ -7,23 +7,23 @@ window.title("Type_writer.exe")
 window.minsize(height=500, width=650)
 window.config(padx=20, pady=20, background="grey")
 
-text = '''generating random paragraphs can be an excellent way for writers to get their creative flow going at the 
-beginning of the day the writer has no idea what topic the random paragraph will be about when it appears this forces 
-the writer to use creativity to complete one of three common writing challenges the writer can use the paragraph as the 
-first one of a short story and build upon it a second option is to use the random paragraph somewhere in a short story 
-they create the third option is to have the random paragraph be the ending paragraph in a short story no matter which 
-of these challenges is undertaken the writer is forced to use creativity to incorporate the paragraph into their writing
-'''
+# text = '''generating random paragraphs can be an excellent way for writers to get their creative flow going at the
+# beginning of the day the writer has no idea what topic the random paragraph will be about when it appears this forces
+# the writer to use creativity to complete one of three common writing challenges the writer can use the paragraph as the
+# first one of a short story and build upon it a second option is to use the random paragraph somewhere in a short story
+# they create the third option is to have the random paragraph be the ending paragraph in a short story no matter which
+# of these challenges is undertaken the writer is forced to use creativity to incorporate the paragraph into their writing
+# '''
 
-# text = '''
-# years ago when i was younger i kinda liked a girl i knew she was mine and we were sweethearts that was then
-#  but then its true im in love with a fairytale even though it hurts cause i dont care if i lose my mind im already
-#  cursed every day we started fighting every night we fell in love no one else could make me sadder but no one else
-#  could lift me high above i dont know what i was doin when suddenly we fell apart nowadays i cannot find her but
-#  when i do well get a brand new start im in love with a fairytale even though it hurts cause i dont care if i lose
-#  my mind im already cursed shes a fairytale yeah even though it hurts cause i dont care if i lose my mind
-#  im already cursed
-#  '''
+text = '''
+years ago when i was younger i kinda liked a girl i knew she was mine and we were sweethearts that was then
+ but then its true im in love with a fairytale even though it hurts cause i dont care if i lose my mind im already
+ cursed every day we started fighting every night we fell in love no one else could make me sadder but no one else
+ could lift me high above i dont know what i was doin when suddenly we fell apart nowadays i cannot find her but
+ when i do well get a brand new start im in love with a fairytale even though it hurts cause i dont care if i lose
+ my mind im already cursed shes a fairytale yeah even though it hurts cause i dont care if i lose my mind
+ im already cursed
+ '''
 text_list = text.replace("\n", "").split(" ")
 
 label = []
